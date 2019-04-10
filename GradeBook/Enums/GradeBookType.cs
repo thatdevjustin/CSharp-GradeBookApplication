@@ -4,7 +4,12 @@ using System.Text;
 
 namespace GradeBook.Enums
 {
-    public class GradeBookType
+    public enum GradeBookType
     {
+        Standard,
+        Ranked,
+        ESNU,
+        OneToFour,
+        SixPoint
     }
 }
